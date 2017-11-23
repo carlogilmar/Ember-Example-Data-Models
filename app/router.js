@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('addTest');
+  this.route('newReactive');
 });
 
 export default Router;
