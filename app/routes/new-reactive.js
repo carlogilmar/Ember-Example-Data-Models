@@ -12,11 +12,11 @@ export default Ember.Route.extend({
       });
       reactive.save().then(()=>{
         console.log("Se guardo el reactivo");
+        this.transitionTo('show');
       },
       function(){
         alert("Error al guardar un reactivo papi");
       });
-      console.log("acá agarrando algo chido");
     }
   }
 

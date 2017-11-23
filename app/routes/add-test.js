@@ -7,7 +7,7 @@ export default Ember.Route.extend({
         title: this.controller.get('title')
       });
       test.save().then( (test) => {
-        this.controllerFor('application').set('test', test);
+        //this.controllerFor('application').set('test', test);
         this.transitionTo('newReactive');
         console.log("Test guardado");
       },
