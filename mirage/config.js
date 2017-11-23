@@ -1,4 +1,6 @@
 export default function() {
+  this.get('/tests');
+  this.post('/tests');
 
   // These comments are here to help you get started. Feel free to delete them.
 
